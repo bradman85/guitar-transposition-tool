@@ -1,0 +1,15 @@
+bin/
+obj/
+publish/
+*.user
+*.suo
+.vs/
+.vscode/
+*.zip
+.DS_Store
+
+# Rider
+.idea/
+
+# Visual Studio Code workspace
+*.code-workspace
