@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
     <EnableWindowsTargeting>true</EnableWindowsTargeting>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GuitarNeckControl\GuitarNeckControl.csproj" />
+  </ItemGroup>
 </Project>
