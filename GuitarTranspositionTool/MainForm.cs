@@ -40,8 +40,8 @@ namespace GuitarTranspositionTool
 
 		private void BuildUI()
 		{
-			// Guitar neck control
-			_guitarNeckControl = new GuitarNeckControl.GuitarNeckControl();
+            // Guitar neck control
+             _guitarNeckControl = new GuitarNeckControl.GuitarNeckControl();
 			_guitarNeckControl.Location = new Point(20, 20);
 			_guitarNeckControl.Size = new Size(740, 250);
 			_guitarNeckControl.FretSelected += GuitarNeckControl_FretSelected;
